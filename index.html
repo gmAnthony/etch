@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
+    
+</head>
+
+<body>
+    <div class='parent'>
+        <div class='top'>
+            <button class='btn' id='create'>Create</button>
+            <button class='btn' id='reset'>Reset</button>
+        </div>
+        <div id="container">
+        </div>
+        <div class='bottom'>
+            <p>Pen type:</p>
+            <div class="pen-options">
+                <label for="black">Black</label>
+                <input type="radio" id="black" name="pen-type" value="black" checked>
+                <label for="black">Darken</label>
+                <input type="radio" id="darken" name="pen-type" value="darken">
+                <label for="black">Random</label>
+                <input type="radio" id="random" name="pen-type" value="random">
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="etch.js"></script>
+</body>
+
+</html>

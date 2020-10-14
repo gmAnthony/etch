@@ -1,0 +1,40 @@
+body {
+    background: rgb(233, 44, 44);
+}
+
+.parent {
+    display: flex;
+    flex-direction: column;
+}
+
+.top {
+    display: flex;
+    background: rgb(233, 44, 44);
+    padding-top: .5em;
+    padding-bottom: 1em;
+    justify-content: space-evenly;
+}
+
+.bottom {
+    font-family: 'Roboto Mono', monospace;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.btn {
+    font-family: 'Roboto Mono', monospace;
+    padding: 1em;
+}
+
+#container {
+    display: grid;
+    width: 32em;
+    height: 32em;
+    background: whitesmoke;
+    align-self: center;
+}
+
+.box {
+    background: gray;
+}
